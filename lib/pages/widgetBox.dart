@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
 class widgetBox extends StatelessWidget {
@@ -22,7 +23,7 @@ class widgetBox extends StatelessWidget {
         children: [
                 Text(
                   title,
-                  style: TextStyle(
+                  style: GoogleFonts.kanit(
                       fontSize: 25,
                       color: Colors.white,
                       fontWeight: FontWeight.bold),
