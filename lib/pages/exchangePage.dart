@@ -51,7 +51,7 @@ class _exchangePageState extends State<exchangePage> {
         leading: Icon(
           Icons.attach_money
         ),
-        title: Text('อัตราแลกเปลี่ยนเงินตรา'),
+        title: Text('แปลงค่าเงินบาทไทย'),
       ),
 
       body: Container(
